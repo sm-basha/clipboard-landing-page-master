@@ -1,0 +1,133 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+
+}
+#main{
+    background-color: #fff;
+    text-align: center;
+
+}
+
+h1{
+    font-weight: 600;
+    margin-top: 3%;
+}
+h3{line-height: 3rem;margin-top: 30px; font-weight: 600;}
+
+p{
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+}
+.box1{
+    width: 40%;
+    margin: 10px auto 150px;
+}
+.box2{
+    width: 40%;
+    margin: 340px auto 100px;
+}
+.logoH{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+}
+
+.btnBig{
+    border-radius: 42px;
+    margin: 20px 10px;
+    font-size: 0.8rem;
+    width: 190px;
+    color: #fff;
+    line-height: 2rem;
+    height: 50px;
+}
+
+.btnBig1{background-color: hsl(171, 66%, 44%);}
+.btnBig2{background-color: hsl(233, 100%, 69%);}
+
+.compCol{
+    text-align: left;
+    margin: 170px 150px 0 850px;
+}
+
+
+        /* ROW1 */
+
+.row1{
+    margin: 100px 220px 150px;
+}
+
+/* BRANDS */
+.brandlogo{    margin: 0 70px;}
+
+.clipboard{margin-top: 200px;}
+
+    /* Footer1 */
+
+#footer1{
+    background-color:hsla(201, 19%, 87%, 0.54);
+
+}
+.footerItems{
+    margin: 20px 100px;
+    padding: 50px 100px;
+    list-style: none;
+    margin: 5% 0;
+}
+ul{margin:0}
+li{
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+
+.soc{
+    margin: 10px;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+/* Media Query */
+
+@media(max-width:980px){
+    .box1,.box2{
+        width: 100%;
+    }
+    .colImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .compCol,.row1{
+        text-align: center;
+        margin: 10px;
+    }
+    .brandlogo{
+        margin: 50px;
+    }
+    .btnBig{
+        width: 290px;
+
+    }
+    #footer1{
+        text-align: center;
+        margin: 20px;
+    }
+    .soc{
+        margin:30px 20px 0;
+    }
+
+
+}
